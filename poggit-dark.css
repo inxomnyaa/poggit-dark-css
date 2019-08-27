@@ -249,3 +249,21 @@ hr {
 .multisearch {
   margin-right: 20px;
 }
+.toggle-wrapper {
+  background-color: #25272a;
+}
+.toggle-light .toggle-blob {
+  background: #4183c4;
+  border: 1px solid #0275c7;
+}
+.toggle-light .toggle-off, .toggle-light .toggle-select .toggle-on {
+  background: #f76150;
+  color: initial;
+}
+.toggle-light .toggle-on, .toggle-light .toggle-select .toggle-inner .active {
+  background: #8ddb8d;
+  color: initial;
+}
+.toggle-light .toggle-slide {
+  box-shadow: initial;
+}
