@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name         Poggit Dark
-@version      1.0.6
+@version      1.0.7
 @description  Dark theme for Poggit (a GitHub application for managing PocketMine-family plugins and website for sharing plugins)
-@namespace    XenialDan
+@namespace    Poggit
 @author       XenialDan
-@homepageURL  https://gist.github.com/thebigsmileXD/ed07c6bd4285614d2c5654c9dce76bf2
-@supportURL   https://gist.github.com/thebigsmileXD/ed07c6bd4285614d2c5654c9dce76bf2
-@updateURL    https://raw.githubusercontent.com/StylishThemes/StackOverflow-Dark/master/stackoverflow-dark.user.css
+@homepageURL  https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css
+@supportURL   https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css/issues
+@updateURL    https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css/master/poggit-dark.css
 ==/UserStyle== */
 * {
   border-radius: initial !important;
