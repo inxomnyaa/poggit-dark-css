@@ -229,6 +229,11 @@
   .plugin-info-changelog {
     background-color: #333a42;
   }
+
+  .search-info {
+
+    background-color: rgb(37, 39, 42);
+  }
   hr {
     border: 1px solid #323840;
   }
