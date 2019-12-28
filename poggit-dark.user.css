@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Poggit Dark
-@version      1.0.8
+@version      1.0.9
 @description  Dark theme for Poggit (a GitHub application for managing PocketMine-family plugins and website for sharing plugins)
 @namespace    Poggit
 @author       XenialDan
@@ -103,9 +103,10 @@
     background-color: #343434;
   }
   code,
-  pre code {
+  pre code,
+  .code {
     padding: .2rem .4rem !important;
-    color: ghostwhite;
+    color: ghostwhite !important;
     background-color: #343434;
     border-radius: .25rem !important;
   }
