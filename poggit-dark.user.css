@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         Poggit Dark
-@version      1.0.9
+@version      1.0.10
 @description  Dark theme for Poggit (a GitHub application for managing PocketMine-family plugins and website for sharing plugins)
 @namespace    Poggit
 @author       XenialDan
-@homepageURL  https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css
-@supportURL   https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css/issues
+@homepageURL  https://github.com/thebigsmileXD/poggit-dark-css
+@supportURL   https://github.com/thebigsmileXD/poggit-dark-css/issues
 @updateURL    https://raw.githubusercontent.com/thebigsmileXD/poggit-dark-css/master/poggit-dark.user.css
 ==/UserStyle== */
 @-moz-document domain(poggit.pmmp.io) {
@@ -308,12 +308,15 @@
   .action:hover {
     background-color: #4183c4;
   }
-  .btn {
+  .btn,
+  .ui-button {
     background-color: #21b9ff;
     border: none;
   }
-  .btn:hover {
+  .btn:hover,
+  .ui-button:hover {
     background-color: #4183c4;
+    border: none;
   }
   .projects-latest-builds {
     margin: initial;
@@ -556,6 +559,9 @@
   }
   .toggle-light .toggle-slide {
     box-shadow: initial;
+  }
+  .ui-widget-header {
+    color: white;
   }
   /* Now, let's darken the scrollbar */
   ::-webkit-scrollbar {
