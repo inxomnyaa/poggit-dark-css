@@ -594,4 +594,7 @@
     scrollbar-color: #737373 #38383D;
     scrollbar-color: dark;
   }
+  pre {
+    color: inherit;
+  }
 }
