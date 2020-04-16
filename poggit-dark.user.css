@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Poggit Dark
-@version      1.0.10
+@version      1.0.11
 @description  Dark theme for Poggit (a GitHub application for managing PocketMine-family plugins and website for sharing plugins)
 @namespace    Poggit
 @author       XenialDan
@@ -562,6 +562,9 @@
   }
   .ui-widget-header {
     color: white;
+  }
+  pre {
+    color: inherit;
   }
   /* Now, let's darken the scrollbar */
   ::-webkit-scrollbar {
